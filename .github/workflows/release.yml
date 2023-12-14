@@ -3,7 +3,7 @@ name: Release gh-gk Extension
 on:
   push:
     tags:
-      - 'v*'
+      - 'gk-v*'
 
 jobs:
   create-release:
