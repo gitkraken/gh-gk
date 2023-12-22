@@ -80,7 +80,7 @@ gh gk pr list
 ```
 When a Cloud Workspace has a provider connected, you can list all pull requests and issues for repos in the workspace, and view details for a specific one.
 
-![Screenshot 2023-12-22 at 10 40 33 AM](https://github.com/gitkraken/gh-gk/assets/115040794/f9a638d7-bdfe-44fc-826b-352f429f3580)
+![gh-gk-pr-list-screenshot](https://github.com/gitkraken/gh-gk/assets/115040794/4579ed18-8457-4834-a640-27797d4ec093)
 
 ```
 gh gk pr view
