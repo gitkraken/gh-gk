@@ -37,6 +37,19 @@ gh extension remove gitkraken/gh-gk
 The GitKraken CLI supports Nerd Fonts to display icons for some commands. To ensure correct icon rendering, please obtain and install a Nerd Font available at https://www.nerdfonts.com/. After installation, set the selected Nerd Font as the default font for your terminal.
 
 ## Examples
+### 🎯 Focus View
+```
+gh gk focus
+```
+GitKraken Focus View is a unified dashboard that consolidates PRs, Issues, and WIPs across all of the repositories in a [Cloud Workspace](#-create-workspaces-to-group-repos). You can view the details of any item and take action on your most important tasks.
+
+![gk-focus-screenshot](https://github.com/gitkraken/gh-gk/assets/115040794/ee364f95-8081-4f77-a8ce-f651e255d416)
+
+#### Pin items to keep them at the top of your list
+Use the shortcut <kbd>p</kbd> to pin any PR or Issue to the top of the list. You can unpin an item by using the same shortcut on any pinned item.
+#### Snooze items to save them for later
+Use the shortcut <kbd>s</kbd> to snooze any PR or Issue, removing them from the list of items. You can view snoozed items by navigating to the `Snoozed` tab in the Focus View. You can unsnooze items and bring them back into your Focus View lists by using the same shortcut on any snoozed item.
+
 ### 🤝 Create Workspaces to group repos
 ```
 gh gk ws create
